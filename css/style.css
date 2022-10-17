@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+
+/* Header Section */
+.header-section {
+  display: flex;
+  align-items: center;
+  background-color: #1f2937;
+  justify-content: space-between;
+}
+
+.header-logo {
+  display: flex;
+  font-size: 24px;
+  font-weight: 800;
+  padding: 0;
+  color: #f9faf8;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  margin: 0 15px;
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #e5e7eb;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+}
+
+.hero-title {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+.hero-paragraph {
+  color: #e5e7eb;
+  font-size: 18px;
+  font-weight: 200;
+}
+
+button {
+  background-color: #3882f6;
+  border: none;
+  color: #f9faf8;
+  padding: 12px 36px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.hero-image {
+  width: 500px;
+  height: 400px;
+  border-color: #f9faf8;
+  border-width: 10px;
+  border-style: solid;
+}
+
+/* Information Section */
+.info-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-title {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+}
+
+.info-cards {
+  display: flex;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-placeholder {
+  width: 100px;
+  height: 200px;
+  border-color: #3882f6;
+  border-width: 4px;
+  border-style: solid;
+  border-radius: 10px;
+}
+
+/* Quote Section */
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #e5e7eb;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 100;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: flex-end;
+  color: #1f2937;
+}
+
+/* Call to Action */
+.cta-section {
+  display: flex;
+  justify-content: center;
+}
+
+.cta-square {
+  display: flex;
+  background-color: #3882f6;
+}
+
+.cta.button {
+
+}
+
+/* Footer Section */
+.footer-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #f9faf8;
+}
